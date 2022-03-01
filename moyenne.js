@@ -12,7 +12,7 @@ function note_max(tableau){
         return max;
         }
 
-
+//une fonction qui retourne le note min
 function note_min(tableau){
     let min;
     for(let i=0;i<tableau.length;i++){
@@ -23,7 +23,7 @@ function note_min(tableau){
     return min
 }
 
-
+//une fonction qui retourne la moyenne
 function moyenne(tableau){
     let compteur=0;
     for(let i=0;i<tableau.length;i++){
