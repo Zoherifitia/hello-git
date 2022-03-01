@@ -1,4 +1,5 @@
 
+//une fonction qui retourne la note max
 function note_max(tableau){
        let max;
         for(let i=0;i<tableau.length;i++){
@@ -10,8 +11,7 @@ function note_max(tableau){
       
         return max;
         }
-const note =[8,18,1,19,16];
-console.log(note_max(note));
+
 
 function note_min(tableau){
     let min;
@@ -22,16 +22,14 @@ function note_min(tableau){
     }
     return min
 }
-console.log(note_min(note));
+
 
 function moyenne(tableau){
     let compteur=0;
     for(let i=0;i<tableau.length;i++){
         compteur+=tableau[i]
     }
-    return compteur/tableau.length;
-}
-console.log(moyenne(note));
+    return compteur/tableau.length
     
     
     
