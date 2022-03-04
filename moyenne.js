@@ -2,8 +2,7 @@
 //une fonction qui retourne la note max
 function note_max(tableau){
        let max;
-        for(let i=0;i<tableau.length;i++){
-           (tableau[i])    
+        for(let i=0;i<tableau.length;i++){    
            if(tableau[i]>tableau[i+1])
                 max=tableau[i];
         }
@@ -16,7 +15,6 @@ function note_max(tableau){
 function note_min(tableau){
     let min;
     for(let i=0;i<tableau.length;i++){
-        tableau[i]
         if(tableau[i]<tableau[i+1])
            min=tableau[i];
     }
@@ -26,6 +24,7 @@ function note_min(tableau){
 //une fonction qui retourne la moyenne
 function moyenne(tableau){
     let compteur=0;
+       //on fait une boucle pour pouvoir accumuler les notes dans une valeur
     for(let i=0;i<tableau.length;i++){
         compteur+=tableau[i]
     }
